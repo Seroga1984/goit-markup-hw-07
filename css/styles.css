@@ -1,91 +1,15 @@
-:root {
-  --main-font--: Roboto, sans-serifi;
-  --secondary-font: Raleway, sans-serifi;
 
-  /* text colors */
-  --main-txt-color--: rgba(117, 117, 117, 1);
-  --secondary-txt-color1--: #212121;
-  --sekondari-txt-color2--: #ffffff;
-  --accent-txt-color--: #2196f3;
-  --studio-txt-color--: #000000;
 
-  /* bacground colors */
-  --wite-bg-color--: #ffffff;
-  --hero-footer-color: #2f303a;
-  --secondary-bg-color: #f5f4fa;
-}
 
-body {
-  font-family: var(--main-font--);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--main-txt-color--);
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
 
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  display: block;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.header__container {
-  display: flex;
-  align-items: center;
-}
-
-.header {
-  border-bottom: 1px solid #eeeeee;
-}
-
-a {
-  text-decoration: none;
-}
-
-li {
-  list-style-type: none;
-}
 
 /* Шапка */
 
 .header {
   background-color: var(--wite-bg-color--);
 }
-.logo {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-txt-color--);
-  margin-right: 100px;
-}
 
-.logo__studio {
-  color: var(--studio-txt-color--);
-}
 
 .navigation__list {
   display: flex;
@@ -206,29 +130,7 @@ li {
   margin-bottom: 30px;
 }
 
-.button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  display: inline-block;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--sekondari-txt-color2--);
-  background-color: var(--accent-txt-color--);
-  border: none;
-  cursor: pointer;
-  width: 200px;
-  height: 50px;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
 
-.button:hover,
-.button:focus {
-  background-color: #188ce8;
-}
 
 /* модальное окно */
 
@@ -707,9 +609,7 @@ fill: var(--accent-txt-color--);
   align-items: baseline;
 }
 
-.studio-footer {
-  color: var(--sekondari-txt-color2--);
-}
+
 
 .address {
   margin-top: 20px;
@@ -807,15 +707,7 @@ fill: var(--accent-txt-color--);
     background-color:var(--hero-footer-color) ;
 }
 
-.footer-button {
-  display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.footer-button__icon {
-  margin-left: 10px;
-}
 
 /* Портфолио */
 
